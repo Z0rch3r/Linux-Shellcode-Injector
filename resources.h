@@ -1,0 +1,11 @@
+#include <stdint.h>
+#include <stdio.h>
+#include <iostream>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/ptrace.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <sys/reg.h>
+#include <sys/user.h>
